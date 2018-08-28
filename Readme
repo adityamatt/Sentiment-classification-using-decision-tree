@@ -1,0 +1,32 @@
+Author: Aditya Tiwari
+Entry: 2016csb1029
+Email 2016csb1029@iitrpr.ac.in for any queries
+##################################
+The code is in python ,so make sure your system has python on it
+OS:linux or linux-like
+
+To run the code on Ubuntu 16.04 to reproduce the results
+Go inside the folder Named "code"
+Open Terminal in there
+Enter: python main.py <EXP_NO>
+where EXP_NO is from [2-5] for the respective experiments whose results are shown in Report
+##################################
+Experiment 2:
+
+It asks you a input value of Information Thresh to be used to make the Decision Tree Then it finds the accuracy of it on 10 different test sets and returns the average of 10
+Similarly it asks for a depth threshold and does tha same as above
+##################################
+Experiment 3:
+I have saved the tree in files,Now the script asks for a choice for 0.5,1,5,10 percent Noise and simply Loads the Corresponding Noise Set and makes a tree using and and then
+returns the accuracy of it using single test set
+##################################
+Experiment 4:
+
+I have saved the Tree created initially and simply prune it greedily and print the result
+
+##################################
+Experiment 5:
+It asks number of trees in the forest and starts creating it and prints the accuracy of forest after each insertion of tree
+It also asks if you want to creat pruned tree or not in the forest
+
+
